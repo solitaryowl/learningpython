@@ -1,10 +1,10 @@
+
 """
 Link:https://runestone.academy/ns/books/published/py4e-int/regex/hp-practice-adv.html
 
 """
 # Create a regex that finds dates in the format MM/DD/YY or MM/DD/YYYY and returns just the year part
 import re
-
 
 
 def regex1(text):
@@ -21,7 +21,7 @@ def regex2(text):
     if x is not None:
         print(x.group())
 
-#Create a regex that returns only the first alphabetic word (upper and lower case) at the start of the string
+
 
 
 
